@@ -1,0 +1,485 @@
+{
+  "elements": {
+    "GauntletL": {
+      "offset": [ 0.2, 0.3, 0 ]
+    },
+    "GauntletR": {
+      "offset": [ -0.2, 0.3, 0 ]
+    },
+    "LegpanelL1": {
+      "offset": [ 0.1, 0.3, -0.5 ]
+    },
+    "LegpanelL2": {
+      "offset": [ 0.1, 0.3, -0.5 ]
+    },
+    "LegpanelL3": {
+      "offset": [ 0.1, 0.3, -0.5 ]
+    },
+    "LegpanelL4": {
+      "offset": [ 0.1, 0.3, -0.5 ]
+    },
+    "LegpanelL5": {
+      "offset": [ 0.1, 0.3, -0.5 ]
+    },
+    "LegpanelL6": {
+      "offset": [ 0.1, 0.3, -0.5 ]
+    },
+    "LegpanelR1": {
+      "offset": [ -0.1, 0.3, -0.5 ]
+    },
+    "LegpanelR2": {
+      "offset": [ -0.1, 0.3, -0.5 ]
+    },
+    "LegpanelR3": {
+      "offset": [ -0.1, 0.3, -0.5 ]
+    },
+    "LegpanelR4": {
+      "offset": [ -0.1, 0.3, -0.5 ]
+    },
+		"LegpanelR5": {
+      "offset": [ -0.1, 0.3, -0.5 ]
+    },
+    "LegpanelR6": {
+      "offset": [ -0.1, 0.3, -0.5 ]
+    },
+		"SidepanelR1": {
+      "offset": [ -0.1, 0.15, 0 ],
+			"stances": {
+				"SNEAKING": {
+					"offset": [ 0.1, 0.1, 0 ],
+					"rotate": [ 0, 0, 30 ]
+				}
+			}
+    },
+    "SidepanelR2": {
+      "offset": [ -0.1, 0.2, 0 ]
+    },
+    "SidepanelR3": {
+      "offset": [ -0.1, 0.25, 0 ]
+    },
+    "SidepanelL1": {
+      "offset": [ 0.1, 0.15, 0 ],
+			"stances": {
+				"SNEAKING": {
+					"offset": [ -0.1, 0.1, 0 ],
+					"rotate": [ 0, 0, -30 ]
+				}
+			}
+    },
+    "SidepanelL2": {
+      "offset": [ 0.1, 0.2, 0 ]
+    },
+    "SidepanelL3": {
+      "offset": [ 0.1, 0.25, 0 ]
+    },
+    "Gauntletstrapl1": {
+      "offset": [ 0.2, 0.3, 0 ]
+    },
+    "GauntletstrapL2": {
+      "offset": [ 0.2, 0.3, 0 ]
+    },
+    "GauntletstrapR1": {
+      "offset": [ -0.2, 0.3, 0 ]
+    },
+    "GauntletstrapR2": {
+      "offset": [ -0.2, 0.3, 0 ]
+    },
+    "ShoulderplateLtop": {
+      "offset": [ 0.1, 0.3, 0 ],
+			"stances": {
+				"SNEAKING": {
+					"offset": [ 0, 0.1, 0 ],
+					"rotate": [ 0, 0, -20 ]
+				}
+			}
+    },
+    "ShoulderplateL1": {
+      "offset": [ 0.1, 0.3, 0 ],
+			"stances": {
+				"SNEAKING": {
+					"offset": [ 0, 0.1, 0 ],
+					"rotate": [ 0, 0, -20 ]
+				}
+			}
+    },
+    "ShoulderplateL2": {
+      "offset": [ 0.1, 0.35, 0 ]
+    },
+    "ShoulderplateL3": {
+      "offset": [ 0.1, 0.4, 0 ]
+    },
+    "Book": {
+      "offset": [ -0.4, -0.3, 0.5 ],
+      "rotate": [ 90, 180, 90 ],
+			"stances": {
+				"SNEAKING": {
+					"offset": [ 0, 0, 0.2 ],
+					"rotate": [ 1.8, 0, 0 ]
+				}
+			}
+    },
+    "Scroll": {
+      "offset": [ -0.5, -0.4, 0.5 ],
+      "rotate": [ 90, 180, 90 ],
+			"stances": {
+				"SNEAKING": {
+					"offset": [ 0, 0, 0.2 ],
+					"rotate": [ 1.8, 0, 0 ]
+				}
+			}
+    },
+    "ShoulderL": {
+      "offset": [ 0.1, 0.4, 0 ]
+    },
+    "ShoulderR": {
+      "offset": [ -0.1, 0.4, 0 ]
+    },
+    "BackpanelL1": {
+      "offset": [ 0.1, 0.3, 0 ]
+    },
+    "BackpanelL2": {
+      "offset": [ 0.1, 0.3, 0 ]
+    },
+    "BackpanelL3": {
+      "offset": [ 0.1, 0.3, 0 ]
+    },
+		"BackpanelR1": {
+      "offset": [ -0.1, 0.3, 0 ]
+    },
+    "BackpanelR2": {
+      "offset": [ -0.1, 0.3, 0 ]
+    },
+    "BackpanelR3": {
+      "offset": [ -0.1, 0.3, 0 ]
+    },
+    "ShoulderplateRtop": {
+      "offset": [ -0.1, 0.3, 0 ],
+			"stances": {
+				"SNEAKING": {
+					"offset": [ 0, 0.1, 0 ],
+					"rotate": [ 0, 0, 20 ]
+				}
+			}
+    },
+		"ShoulderplateR1": {
+      "offset": [ -0.1, 0.3, 0 ],
+			"stances": {
+				"SNEAKING": {
+					"offset": [ 0, 0.1, 0 ],
+					"rotate": [ 0, 0, 20 ]
+				}
+			}
+    },
+    "ShoulderplateR2": {
+      "offset": [ -0.1, 0.35, 0 ]
+    },
+    "ShoulderplateR3": {
+      "offset": [ -0.1, 0.4, 0 ]
+    },
+    "Helmet": {
+      "offset": [ 0, 0, -0.16 ],
+			"scale": [ 0.1, 0.1, 0.1 ],
+			"stances": {
+				"SNEAKING": {
+					"offset": [ 0, 0.2, 0 ]
+				}
+			},
+			"lookmatrix": [
+				[-1.1, 1, -45, 13],
+				[0, 0, 0, 0],
+				[0, 0, 0, 0]
+			],
+			"clone": {
+				"offset": [ 0.19, -0.08, -0.04 ],
+				"scale": [ -0.63, 0.1, -0.65 ],
+				"stances": {
+					"SNEAKING": {
+						"offset": [ 0, 0.2, 0 ]
+					}
+				},
+				"lookmatrix": [
+					[-1, 1, -45, 13],
+					[0, 0, 0, 0],
+					[0, 0, 0, 0]
+				],
+				"clone": {
+					"offset": [ -0.19, -0.08, -0.04 ],
+					"scale": [ -0.63, 0.1, -0.65 ],
+					"stances": {
+						"SNEAKING": {
+							"offset": [ 0, 0.2, 0 ]
+						}
+					},
+					"lookmatrix": [
+						[-1, 1, -45, 13],
+						[0, 0, 0, 0],
+						[0, 0, 0, 0]
+					]
+				}
+			}
+    },
+    "HelmetL": {
+      "offset": [ 0, 0, -0.16 ],
+			"scale": [ 0.1, 0.1, 0.1 ],
+			"stances": {
+				"SNEAKING": {
+					"offset": [ 0, 0.2, 0 ]
+				}
+			},
+			"lookmatrix": [
+				[-1, 1, -45, 13],
+				[0, 0, 0, 0],
+				[0, 0, 0, 0]
+			]
+    },
+    "HelmetR": {
+      "offset": [ 0, 0, -0.16 ],
+			"scale": [ 0.1, 0.1, 0.1 ],
+			"stances": {
+				"SNEAKING": {
+					"offset": [ 0, 0.2, 0 ]
+				}
+			},
+			"lookmatrix": [
+				[-1, 1, -45, 13],
+				[0, 0, 0, 0],
+				[0, 0, 0, 0]
+			]
+    },
+    "HelmetB": {
+      "offset": [ 0, 0, -0.16 ],
+			"scale": [ 0.1, 0.1, 0.1 ],
+			"stances": {
+				"SNEAKING": {
+					"offset": [ 0, 0.2, 0 ]
+				}
+			},
+			"lookmatrix": [
+				[-1, 1, -45, 13],
+				[0, 0, 0, 0],
+				[0, 0, 0, 0]
+			]
+    },
+    "flapR": {
+      "offset": [ 0, 0, -0.16 ],
+			"scale": [ 0.1, 0.1, 0.1 ],
+			"stances": {
+				"SNEAKING": {
+					"offset": [ 0, 0.2, 0 ]
+				}
+			},
+			"lookmatrix": [
+				[-1, 1, -45, 13],
+				[0, 0, 0, 0],
+				[0, 0, 0, 0]
+			]
+    },
+    "flapL": {
+      "offset": [ 0, 0, -0.16 ],
+			"scale": [ 0.1, 0.1, 0.1 ],
+			"stances": {
+				"SNEAKING": {
+					"offset": [ 0, 0.2, 0 ]
+				}
+			},
+			"lookmatrix": [
+				[-1, 1, -45, 13],
+				[0, 0, 0, 0],
+				[0, 0, 0, 0]
+			]
+    },
+    "OrnamentR": {
+      "offset": [ 0, 0, -0.16 ],
+			"scale": [ 0.1, 0.1, 0.1 ],
+			"stances": {
+				"SNEAKING": {
+					"offset": [ 0, 0.2, 0 ]
+				}
+			},
+			"lookmatrix": [
+				[-1, 1, -45, 13],
+				[0, 0, 0, 0],
+				[0, 0, 0, 0]
+			]
+    },
+    "OrnamentR2": {
+      "offset": [ 0, 0, -0.16 ],
+			"scale": [ 0.1, 0.1, 0.1 ],
+			"stances": {
+				"SNEAKING": {
+					"offset": [ 0, 0.2, 0 ]
+				}
+			},
+			"lookmatrix": [
+				[-1, 1, -45, 13],
+				[0, 0, 0, 0],
+				[0, 0, 0, 0]
+			]
+    },
+    "OrnamentL": {
+      "offset": [ 0, 0, -0.16 ],
+			"scale": [ 0.1, 0.1, 0.1 ],
+			"stances": {
+				"SNEAKING": {
+					"offset": [ 0, 0.2, 0 ]
+				}
+			},
+			"lookmatrix": [
+				[-1, 1, -45, 13],
+				[0, 0, 0, 0],
+				[0, 0, 0, 0]
+			]
+    },
+    "OrnamentL2": {
+      "offset": [ 0, 0, -0.16 ],
+			"scale": [ 0.1, 0.1, 0.1 ],
+			"stances": {
+				"SNEAKING": {
+					"offset": [ 0, 0.2, 0 ]
+				}
+			},
+			"lookmatrix": [
+				[-1, 1, -45, 13],
+				[0, 0, 0, 0],
+				[0, 0, 0, 0]
+			]
+    },
+    "Gem": {
+      "offset": [ 0, 0, -0.16 ],
+			"scale": [ 0.1, 0.1, 0.1 ],
+			"stances": {
+				"SNEAKING": {
+					"offset": [ 0, 0.2, 0 ]
+				}
+			},
+			"lookmatrix": [
+				[-1, 1, -45, 13],
+				[0, 0, 0, 0],
+				[0, 0, 0, 0]
+			]
+    },
+    "Gemornament": {
+      "offset": [ 0, 0, -0.16 ],
+			"scale": [ 0.1, 0.1, 0.1 ],
+			"stances": {
+				"SNEAKING": {
+					"offset": [ 0, 0.2, 0 ]
+				}
+			},
+			"lookmatrix": [
+				[-1, 1, -45, 13],
+				[0, 0, 0, 0],
+				[0, 0, 0, 0]
+			]
+    },
+    "Goggles": {
+      "offset": [ 0, 0, -0.16 ],
+			"scale": [ 0.1, 0.1, 0.1 ],
+			"stances": {
+				"SNEAKING": {
+					"offset": [ 0, 0.2, 0 ]
+				}
+			},
+			"lookmatrix": [
+				[-1, 1, -45, 13],
+				[0, 0, 0, 0],
+				[0, 0, 0, 0]
+			]
+    },
+    "capsthingy": {
+      "offset": [ 0, 0, -0.16 ],
+			"scale": [ 0.1, 0.1, 0.1 ],
+			"stances": {
+				"SNEAKING": {
+					"offset": [ 0, 0.2, 0 ]
+				}
+			},
+			"lookmatrix": [
+				[-1, 1, -45, 13],
+				[0, 0, 0, 0],
+				[0, 0, 0, 0]
+			]
+    },
+    "Chestplate": {
+      "offset": [ 0, 0.03, 0 ],
+      "scale": [ 0.2, 0.5, 0.2 ],
+			"stances": {
+				"SNEAKING": {
+					"offset": [ 0, 0.1, -0.1 ]
+				}
+			}
+    },
+    "Backplate": {
+      "offset": [ 0, 0.8, -0.3 ],
+      "rotate": [ 90, 0, 0 ],
+      "scale": [ 0.3, 0.6, 1.9 ],
+			"stances": {
+				"SNEAKING": {
+					"offset": [ 0, -0.05, -0.04 ],
+					"rotate": [ -3, 0, 0 ],
+					"scale": [ 0.2, 0, 0 ]
+				}
+			}
+    },
+		"Mbelt": {
+      "offset": [ 0, 0.6, -0.2 ],
+      "rotate": [ 90, 0, 0 ],
+      "scale": [ 0.2, 0.001, 0.001 ],
+			"stances": {
+				"SNEAKING": {
+					"offset": [ 0, -0.1, -0.2 ],
+					"rotate": [ 0, 0, 0 ],
+					"scale": [ 0, 0, 0 ]
+				}
+			}
+    },
+		"BeltL": {
+      "offset": [ 0.05, 0.55, 0.05 ],
+      "rotate": [ 90, 0, 0 ],
+      "scale": [ 0, 0, 0 ],
+			"stances": {
+				"SNEAKING": {
+					"offset": [ 0, -0.1, -0.2 ],
+					"rotate": [ 0, 0, 0 ],
+					"scale": [ 0, 0, 0 ]
+				}
+			}
+    },
+		"MbeltL": {
+			"offset": [ 0.06, 0.75, 0.1 ],
+      "rotate": [ 100, -15, 0 ],
+      "scale": [ 0, 0, 0 ],
+			"stances": {
+				"SNEAKING": {
+					"offset": [ 0, -0.1, -0.2 ],
+					"rotate": [ 0, 0, 0 ],
+					"scale": [ 0, 0, 0 ]
+				}
+			}
+    },
+    "BeltR": {
+      "offset": [ -0.05, 0.55, 0.05 ],
+      "rotate": [ 90, 0, 0 ],
+      "scale": [ 0, 0, 0 ],
+			"stances": {
+				"SNEAKING": {
+					"offset": [ 0, -0.1, -0.2 ],
+					"rotate": [ 0, 0, 0 ],
+					"scale": [ 0, 0, 0 ]
+				}
+			}
+    },
+    "MbeltR": {
+			"offset": [ -0.06, 0.75, 0.1 ],
+      "rotate": [ 100, 15, 0 ],
+      "scale": [ 0, 0, 0 ],
+			"stances": {
+				"SNEAKING": {
+					"offset": [ 0, -0.1, -0.2 ],
+					"rotate": [ 0, 0, 0 ],
+					"scale": [ 0, 0, 0 ]
+				}
+			}
+    }
+  }
+}
