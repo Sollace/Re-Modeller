@@ -2,7 +2,6 @@ package com.minelittlepony.remodeller.wrappers;
 
 import com.google.gson.Gson;
 import com.minelittlepony.model.armour.ModelPonyArmor;
-import com.minelittlepony.model.armour.PonyArmor;
 import com.minelittlepony.remodeller.ModelRewriteManager;
 import com.minelittlepony.remodeller.ducks.IModelBiped;
 import com.minelittlepony.remodeller.model.Stance;
@@ -27,10 +26,10 @@ public class PonyArmourWrapper extends ModelPonyArmor {
         return gson.fromJson(json, model.getClass());
     }
 
-    public static PonyArmor wrap(ModelBiped model) {
+    public static ModelPonyArmor wrap(ModelBiped model) {
         PonyArmourWrapper wrapper = new PonyArmourWrapper(model);
         wrapper.init(0, 0);
-        return new PonyArmor(wrapper, wrapper);
+        return wrapper;
     }
 
     private PonyArmourWrapper(ModelBiped model) {

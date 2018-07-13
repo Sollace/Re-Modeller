@@ -6,23 +6,24 @@ import java.util.Map;
 
 import org.spongepowered.asm.mixin.Mixin;
 
-import com.minelittlepony.model.armour.PonyArmor;
+import com.minelittlepony.model.armour.ModelPonyArmor;
 import com.minelittlepony.remodeller.ducks.IModelBiped;
 import com.minelittlepony.remodeller.ducks.IModelRenderer;
 import com.minelittlepony.remodeller.wrappers.PonyArmourWrapper;
 
 import net.minecraft.client.model.ModelBiped;
 import net.minecraft.client.model.ModelRenderer;
+import net.minecraft.inventory.EntityEquipmentSlot;
 
 @Mixin(ModelBiped.class)
 public abstract class MixinModelBiped implements IModelBiped {
 
-    private PonyArmor ponyArmourWrapper = null;
+    private ModelPonyArmor ponyArmourWrapper = null;
 
     private Map<String, IModelRenderer> compiledBoxList = null;
 
     @Override
-    public PonyArmor getEquestrianArmour() {
+    public ModelPonyArmor getArmorForSlot(EntityEquipmentSlot slot) {
         if (ponyArmourWrapper == null) {
             ponyArmourWrapper = PonyArmourWrapper.wrap((ModelBiped)(Object)this);
         }
