@@ -1,0 +1,86 @@
+buildscript {
+    repositories {
+        jcenter()
+        maven {
+            name 'forge'
+            url 'http://files.minecraftforge.net/maven/'
+        }
+        maven {
+            name = "sonatype"
+            url = "https://oss.sonatype.org/content/repositories/snapshots/"
+        }
+        maven {
+            name = 'sponge'
+            url = 'http://repo.spongepowered.org/maven'
+        }
+    }
+    dependencies {
+        classpath 'net.minecraftforge.gradle:ForgeGradle:' + project.forgeGradleVersion
+        classpath 'org.spongepowered:mixingradle:' + project.mixinGradleVersion
+    }
+}
+apply plugin: 'net.minecraftforge.gradle.liteloader'
+apply plugin: 'org.spongepowered.mixin'
+
+def ver = "${project.mcVersion}.${project.buildVersion}-${project.buildType}"
+
+version = ver
+group = project.group
+description = project.name
+
+minecraft {
+    version = project.mcVersion
+    mappings = project.mcMappings
+    runDir = 'run'
+ 
+    replace '@NAME@', project.name
+		replace '@VERSION@', ver
+}
+
+mixin {
+    defaultObfuscationEnv notch
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+sourceSets {
+    main {
+        java {
+            srcDirs "src"
+        }
+        resources {
+            srcDirs "resources"
+        }
+        refMap = project.refCore
+    }
+}
+
+// broken
+repositories {
+    flatDir {
+        dir 'repo'
+    }
+}
+dependencies {
+    deobfCompile('com.minelittlepony:minelittlepony:1.12.2.2-mc1.12.2:srg')
+}
+
+// broken / never worked / Mumfrey pls stop giving us broken templates
+processResources {
+    def props = [
+        version: ver,
+        mcversion: project.mcVersion,
+        revision: project.buildRevision
+    ]
+    inputs.properties props
+    from(sourceSets.main.resources.srcDirs) {
+        include 'litemod.json'
+        expand props
+    }
+    
+    // copy everything else, thats not the litemod.json
+    from(sourceSets.main.resources.srcDirs) {
+        exclude 'litemod.json'
+    }
+}

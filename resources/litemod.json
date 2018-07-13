@@ -1,0 +1,10 @@
+{
+    "name": "Re:Modeller",
+    "mcversion": "1.12.2",
+    "version": "{version}",
+    "revision": "{revision}",
+    "author": "Sollace",
+    "mixinConfigs": [
+        "remodeller.mixins.json"
+    ]
+}
