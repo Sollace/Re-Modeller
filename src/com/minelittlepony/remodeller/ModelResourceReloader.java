@@ -42,7 +42,7 @@ abstract class ModelResourceReloader implements IResourceManagerReloadListener {
 
         for (String domain : manager.getResourceDomains()) {
             try {
-                for (IResource resource : manager.getAllResources(new ResourceLocation(domain, "modelrewrites/modelrewriters.json"))) {
+                for (IResource resource : manager.getAllResources(new ResourceLocation(domain, "modelrewrites/modelrewriters.txt"))) {
                     for (String i : loadLines(resource.getInputStream())) {
                         if (rewritersToLoad.contains(i)) rewritersToLoad.add(i);
                     }
