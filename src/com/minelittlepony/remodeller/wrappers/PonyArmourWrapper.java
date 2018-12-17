@@ -62,9 +62,8 @@ public class PonyArmourWrapper extends ModelPonyArmor {
     }
 
     @Override
-    public void showSaddle(boolean isPony) {
-        flankGuard.showModel = false;
-        saddle.showModel = false;
+    public void showSaddle() {
+        chestPiece.showModel = false;
     }
 
     @Override
@@ -113,7 +112,7 @@ public class PonyArmourWrapper extends ModelPonyArmor {
     }
 
     protected Stance getActiveStance() {
-        if (isSneak) {
+        if (isCrouching()) {
             return Stance.SNEAKING;
         }
         if (isGoingFast()) {

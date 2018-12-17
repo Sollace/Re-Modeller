@@ -1,7 +1,7 @@
 package com.minelittlepony.remodeller.wrappers;
 
 import com.minelittlepony.remodeller.ducks.IModelRenderer;
-import com.minelittlepony.render.PonyRenderer;
+import com.minelittlepony.render.model.PonyRenderer;
 
 import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.model.ModelRenderer;

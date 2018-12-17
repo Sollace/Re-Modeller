@@ -63,7 +63,7 @@ repositories {
     }
 }
 dependencies {
-    deobfCompile('com.minelittlepony:minelittlepony:1.12.2.2-mc1.12.2:srg')
+    deobfCompile('com.minelittlepony:minelittlepony:1.12.2.3c-mc1.12.2:srg')
 }
 
 // broken / never worked / Mumfrey pls stop giving us broken templates

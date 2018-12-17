@@ -13,7 +13,6 @@ import com.minelittlepony.remodeller.wrappers.PonyArmourWrapper;
 
 import net.minecraft.client.model.ModelBiped;
 import net.minecraft.client.model.ModelRenderer;
-import net.minecraft.inventory.EntityEquipmentSlot;
 
 @Mixin(ModelBiped.class)
 public abstract class MixinModelBiped implements IModelBiped {
@@ -23,7 +22,7 @@ public abstract class MixinModelBiped implements IModelBiped {
     private Map<String, IModelRenderer> compiledBoxList = null;
 
     @Override
-    public ModelPonyArmor getArmorForSlot(EntityEquipmentSlot slot) {
+    public ModelPonyArmor getArmorForLayer(ArmorLayer layer) {
         if (ponyArmourWrapper == null) {
             ponyArmourWrapper = PonyArmourWrapper.wrap((ModelBiped)(Object)this);
         }
