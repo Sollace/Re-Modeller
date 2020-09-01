@@ -18,7 +18,7 @@ public class ModelRewriteManager extends ModelResourceReloader implements Exposa
     public boolean debug = false;
 
     public void rewriteModel(IModelBiped obj) {
-        String key = obj.getClass().getCanonicalName();
+        String key = obj.getClass().getCanonicalName().toLowerCase();
 
         if (rewrites.containsKey(key)) {
             rewrites.get(key).applyRewrites(obj);
